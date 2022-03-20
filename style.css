@@ -1,0 +1,27 @@
+body{
+	font-size: 1.5rem;
+}
+
+h1, #first{
+	text-align: center;
+}
+
+.containerDiv{
+	display: grid;
+	justify-content: center;
+	grid-auto-flow: column;
+	
+}
+
+.containerUl{
+	display: grid;
+	justify-content: center;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
+span:hover{
+	cursor: pointer;
+}
